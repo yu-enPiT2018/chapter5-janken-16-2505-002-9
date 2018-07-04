@@ -84,6 +84,8 @@ class ResultActivity : AppCompatActivity() {
             if(gameResult == 2){
                 while(lastComHand == hand){
                     hand = (Math.random()*3).toInt()
+
+
                 }
             } else if (gameResult == 1){
                 hand = (lastMyHand -1 + 3)%3
